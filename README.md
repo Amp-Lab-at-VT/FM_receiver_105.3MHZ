@@ -2,6 +2,9 @@
 Phillip Bozzay, Electrical Engineering Student (2027)
 phillipb23@vt.edu
 
+Brady Falk, Computer Engineering Student (2027)
+bradybop14@vt.edu
+
 ## Mentor
 Eddie Pritchard 
 Yousef Chebil
