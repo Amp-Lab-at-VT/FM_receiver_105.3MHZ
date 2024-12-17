@@ -38,6 +38,10 @@ PCB design education value is custom RF pcb design and research of relevant comp
 ## Design Decisions
 General Design Layout: https://docs.google.com/drawings/d/1e5mTtKONOJFI6KM5OiUcPPun2-vZfV_UhMkgm8joVLU/edit?pli=1
 User Interface: https://docs.google.com/drawings/d/1l0TOMat3e_Cb2plj9UsGKdRVyu4xmmN-r_CkISbyUpM/edit?pli=1
+
+SPI Display Driver Circuit
+https://docs.google.com/drawings/d/1E67qR3yuNH56lItT9SU0MOQwrdpFbPqokMBX5DFpPCU/edit?pli=1
+
 ## Design Misc
 
 ## Steps for Documenting Your Design Process
