@@ -23,29 +23,37 @@ Custom design, PCB design education value is custom RF pcb design and research o
 PCB design education value is custom RF pcb design and research of relevant components
 
 ## Tasks
-1. Solder Home-Audio Project
-  A. Solder & Test Graphic Equalizer
-  B. Complete graphic equalizer as a system
-  C. Solder Class D amplifier
-      - Potentially work with sinusoidal carrier frequency
-  D. Complete Class D Amplifier as a system
-  E. Test the two systems
-2. Design FM Receiver Circuit on LTSPICE
-3. Implement on breadboard & output the signal to the Audio System
-4. Solder the FM receiver
-5. Design the display
-6. Package system
+
 
 ## Design Decisions
 General Design Layout: https://docs.google.com/drawings/d/1e5mTtKONOJFI6KM5OiUcPPun2-vZfV_UhMkgm8joVLU/edit?pli=1
-User Interface: https://docs.google.com/drawings/d/1l0TOMat3e_Cb2plj9UsGKdRVyu4xmmN-r_CkISbyUpM/edit?pli=1
+- The General design is an analog radio with a digital display
+- The radio receiver circuit will be designed for signals between 90 MHz and 107 MHz
+- The user will be able to tune the channel via variable capacitor
+- A switch will configure the audio input circuit to radio input / regular audio input (cable)
+- User will be able to adjust the volume and equalize the audio using potentiometers
+- The audio circuit will drive a low resistance speaker 
+- Spectrogram, and more information  will be visible via SPI display
+  
+Digital Display: https://docs.google.com/drawings/d/1l0TOMat3e_Cb2plj9UsGKdRVyu4xmmN-r_CkISbyUpM/edit?pli=1
+- Display FFT information
+- Display FM channel
 
 
 SPI Display Driver Circuit
 https://docs.google.com/drawings/d/1E67qR3yuNH56lItT9SU0MOQwrdpFbPqokMBX5DFpPCU/edit?pli=1
+- The 2.8" TFT SPI display requires the the GPIO inputs be logic shifted from 5 volts to 3.3 volts
+- This is a simple voltage divider
+- Implementing this on a breadboard is quite messy, so the goal is to put this on a PCB chip
+- This driver circuit will be general purpose, not specific to this particular use case 
 
 External Memory Circuit
 https://docs.google.com/drawings/d/11PcZ85OOiS_0Ki8MvOQhEjBIvRu9X47G4qPSfKRWTIE/edit?pli=1
+- The arduino uno only has 2kb of SRAM. 
+- the arduino would require a minimum of 10kb of SRAM (rough estimate) in order to compute and display a low resolution FFT
+- This circuit outsources the SRAM to an external chip, which will allow for 256kb of SRAM.
+- Goal is place these connections on a PCB 
+
 
 ## Design Misc
 
