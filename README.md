@@ -15,7 +15,8 @@ IN THE WORKS NOW
 
 ## Project Overview
 
-105.3 MHz fm radio receiver. Custom design, PCB design education value is custom RF pcb design and research of relevant components
+Analog radio (100MHz) with a digital interface.
+Custom design, PCB design education value is custom RF pcb design and research of relevant components
 
 ## Educational Value Added
 
@@ -39,8 +40,12 @@ PCB design education value is custom RF pcb design and research of relevant comp
 General Design Layout: https://docs.google.com/drawings/d/1e5mTtKONOJFI6KM5OiUcPPun2-vZfV_UhMkgm8joVLU/edit?pli=1
 User Interface: https://docs.google.com/drawings/d/1l0TOMat3e_Cb2plj9UsGKdRVyu4xmmN-r_CkISbyUpM/edit?pli=1
 
+
 SPI Display Driver Circuit
 https://docs.google.com/drawings/d/1E67qR3yuNH56lItT9SU0MOQwrdpFbPqokMBX5DFpPCU/edit?pli=1
+
+External Memory Circuit
+https://docs.google.com/drawings/d/11PcZ85OOiS_0Ki8MvOQhEjBIvRu9X47G4qPSfKRWTIE/edit?pli=1
 
 ## Design Misc
 
