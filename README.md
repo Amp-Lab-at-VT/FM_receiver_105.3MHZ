@@ -66,6 +66,8 @@ https://docs.google.com/drawings/d/11PcZ85OOiS_0Ki8MvOQhEjBIvRu9X47G4qPSfKRWTIE/
 <!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
 
 ## Timeline
+Feb 2/28/2025 validation for audio equalizer circuit successfully completed https://docs.google.com/drawings/d/1Yy9J6RnNpgs11lCt3ADg5ZqFTQz8fsf5LOfN7ywQ5KU/edit?pli=1
+NEXT: fm receiver, bluetooth amplfier, selection circuit, and graphic equalizer display on single PCB
 
 <!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
 
