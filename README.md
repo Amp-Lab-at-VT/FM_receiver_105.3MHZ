@@ -11,15 +11,16 @@ Yousef Chebil
 Nicholas Pacheck
 
 ## Current Status
-IN THE WORKS NOW 
+Final pcb order/ test 
 
 ## Project Overview
 
 Analog radio (100MHz) with a digital interface.
 Custom design, PCB design education value is custom RF pcb design and research of relevant components
 
-![image](https://github.com/user-attachments/assets/a12e00c9-3fbb-45dc-8256-7cfb97a8ba15)
-![image](https://github.com/user-attachments/assets/8dfb6ec6-0a81-4c95-9d90-83c458c14168)
+![image](https://github.com/user-attachments/assets/4c5f7746-ea4c-4181-ac74-f8424c8904d6)
+![image](https://github.com/user-attachments/assets/8ed68dd2-c509-4e69-9a56-389918d56406)
+![image](https://github.com/user-attachments/assets/86a97863-0b0f-4a7e-a492-9e70d1a9c379)
 
 
 ## Educational Value Added
@@ -30,6 +31,8 @@ PCB design education value is custom RF pcb design and research of relevant comp
 
 
 ## Design Decisions
+
+Edit
 General Design Layout: https://docs.google.com/drawings/d/1e5mTtKONOJFI6KM5OiUcPPun2-vZfV_UhMkgm8joVLU/edit?pli=1
 - The General design is an analog radio with a digital display
 - The radio receiver circuit will be designed for signals between 90 MHz and 107 MHz
